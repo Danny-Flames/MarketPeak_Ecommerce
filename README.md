@@ -41,8 +41,8 @@ configure the apache2 to point to the directory on the linux server where the we
 I had to remove previously existing files and folders in that directorty:
 sudo rm -rf /var/www/html/*
 
-Then i had to copy all the file from the MarketPeak-Ecommerce directory into it:
-sudo cp -r ~/MarketPeak Ecommerce/* /var/www/html
+Then i had to copy all the file from the MarketPeak_Ecommerce directory into it:
+sudo cp -r ~/MarketPeak_Ecommerce/* /var/www/html
 
 I had to reload the apache2 service:
 sudo systemctl reload apache2

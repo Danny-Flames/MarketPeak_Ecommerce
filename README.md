@@ -31,7 +31,7 @@ I then checked the service to see if the service was running but it wasn't so i 
 sudo systemctl start apache2
 
 I also enabled the service so that when the instance is turned off and re-started, it comes up automatically:
-sudo systemctl start enable
+sudo systemctl enable apache2
 
 - ### 2.4 Configure Apache2 For Website
 Becuase i understood that in order for me to serve the MarketPeak Ecommerce website from the EC2 Instance, i'll have to 
